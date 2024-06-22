@@ -2,5 +2,6 @@
       pip==24.0
       tensorflow==2.15.0
       uvicorn==0.30.1
-      dotenv
-      numpy
+      watchfiles==0.22.0
+      websockets==12.0
+      wordcloud==1.9.3

@@ -2,7 +2,6 @@ from tensorflow.keras.models import load_model
 import tensorflow as tf
 import numpy as np
 from io import BytesIO
-from PIL import Image
 
 
 model = load_model("Tomato_model_1_ep_15_batch_64.h5")

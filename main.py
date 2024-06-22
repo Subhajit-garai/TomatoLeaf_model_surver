@@ -1,7 +1,6 @@
 import uvicorn
 from fastapi import FastAPI,Request,responses,File,UploadFile
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.encoders import jsonable_encoder
 import model
 from dotenv import load_dotenv
 import os
